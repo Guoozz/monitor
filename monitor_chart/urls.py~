@@ -1,0 +1,8 @@
+from django.conf.urls import url
+from . import views
+
+urlpatterns = [
+    url(,views.get_flow),
+    url(,views.get_message),
+    url(,views.get_warn),
+]
